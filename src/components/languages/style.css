@@ -1,0 +1,35 @@
+.languages{
+    margin-bottom: 2em;
+}
+.languageList h3{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+.languageList{
+    margin-bottom: 0.6em;
+    letter-spacing: 0.1em;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .languageList h3{
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        margin-bottom: 0;
+    }
+    .languageList{
+        margin-bottom: 0.4em;
+        letter-spacing: 0.1em;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+    .languageList h3{
+        text-align: center;
+    }
+    .languageList{
+        text-align: center;
+    }
+}

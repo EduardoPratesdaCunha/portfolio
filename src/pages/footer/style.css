@@ -1,0 +1,72 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10em;
+    margin: 0 auto;
+    padding: 10em 0;
+    background-image: linear-gradient(#fff,#f28406,#83e12b);
+}
+
+.footer--title{
+    margin-bottom: 2em;
+    font-size: 24px;
+}
+
+.footer--contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.footer--personal h3{
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+.footer--links{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.mail--text{
+    letter-spacing: 0.1em;
+    font-size: 18px;
+}
+.mail.copied {
+    animation: blink 2s;
+}
+
+@keyframes blink {
+0%, 50% {
+    background-color: inherit;
+}
+25%, 75% {
+    background-color: #49bb53; /* Cor verde */
+}
+}
+
+@media only screen and (max-width: 320px) {
+    .mail{
+        padding: 5px;
+    }
+    .mail--text{
+        letter-spacing: 0.1em;
+        font-size: 12px;
+    }
+}

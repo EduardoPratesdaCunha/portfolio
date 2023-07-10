@@ -1,0 +1,20 @@
+.contats{
+    margin-top: 10px;
+}
+.contats a{
+    margin-left: 15px;
+}
+.contats img{
+    width: 45px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contats img{
+        width: 30px;
+    }
+    .contats{
+        margin-top: 6px;
+    }
+
+}

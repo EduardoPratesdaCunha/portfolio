@@ -1,0 +1,7 @@
+.icon--copy{
+    width: 45px;
+    margin-left: 10px;
+    border-left: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
